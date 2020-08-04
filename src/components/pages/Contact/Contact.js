@@ -5,6 +5,9 @@ import resumeIcon from "../../assets/resumeIcon.png";
 import inl from "../../assets/inl.png";
 import github from "../../assets/github.png";
 import ScrollUp from "../../ScrollUp/ScrollUp";
+import mail from "../../assets/mail.png";
+import mobile from "../../assets/mobile.png";
+
 
 const Contact = () => {
   return (
@@ -41,10 +44,14 @@ const Contact = () => {
                       </a>
                     </li>
                     <li>
-                      Cell: <a href="#">224-400-0558</a>
+                    <a href="#" >
+                      <img className="logo" src={mobile} alt="CV"></img>
+                      </a> <a href="#">224-400-0558</a>
                     </li>
                     <li>
-                      E-mail:
+                      <a href="mailto:vpetrytsia@gmail.com" target="_blank">
+                      <img className="logo" src={mail} alt="CV"></img>
+                      </a>
                       <a href="mailto:vpetrytsia@gmail.com" target="_blank">
                         vpetrytsia@gmail.com
                       </a>

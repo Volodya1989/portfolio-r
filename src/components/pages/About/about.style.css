@@ -15,6 +15,9 @@
     padding-right: 35px;
     border-radius: 20px;
   }
+ #personalPicture{
+   border-radius: 50%;
+ }
   .logo {
     max-width: 75px;
     max-height: 75px;

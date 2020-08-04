@@ -29,6 +29,7 @@ function About() {
                 <div className="col-sm-12">
                   <img
                     src={personal}
+                    id="personalPicture"
                     className="card-img"
                     alt="personal image"
                   />
