@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio-r/static/css/main.5f361e03.chunk.css",
-    "main.js": "/portfolio-r/static/js/main.9bc926d5.chunk.js",
-    "main.js.map": "/portfolio-r/static/js/main.9bc926d5.chunk.js.map",
+    "main.css": "/portfolio-r/static/css/main.76dbe595.chunk.css",
+    "main.js": "/portfolio-r/static/js/main.f6a17c09.chunk.js",
+    "main.js.map": "/portfolio-r/static/js/main.f6a17c09.chunk.js.map",
     "runtime-main.js": "/portfolio-r/static/js/runtime-main.9d7fb723.js",
     "runtime-main.js.map": "/portfolio-r/static/js/runtime-main.9d7fb723.js.map",
-    "static/js/2.6e3aeba8.chunk.js": "/portfolio-r/static/js/2.6e3aeba8.chunk.js",
-    "static/js/2.6e3aeba8.chunk.js.map": "/portfolio-r/static/js/2.6e3aeba8.chunk.js.map",
+    "static/js/2.65f83808.chunk.js": "/portfolio-r/static/js/2.65f83808.chunk.js",
+    "static/js/2.65f83808.chunk.js.map": "/portfolio-r/static/js/2.65f83808.chunk.js.map",
     "index.html": "/portfolio-r/index.html",
-    "precache-manifest.c3eb6b1afcdcdcd13d10b6db20325b8a.js": "/portfolio-r/precache-manifest.c3eb6b1afcdcdcd13d10b6db20325b8a.js",
+    "precache-manifest.e40777f3310f61993878f3b40cd07307.js": "/portfolio-r/precache-manifest.e40777f3310f61993878f3b40cd07307.js",
     "service-worker.js": "/portfolio-r/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/portfolio-r/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.6e3aeba8.chunk.js.LICENSE.txt": "/portfolio-r/static/js/2.6e3aeba8.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/portfolio-r/static/media/logo.5d5d9eef.svg"
+    "static/css/main.76dbe595.chunk.css.map": "/portfolio-r/static/css/main.76dbe595.chunk.css.map",
+    "static/js/2.65f83808.chunk.js.LICENSE.txt": "/portfolio-r/static/js/2.65f83808.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/portfolio-r/static/media/Resume.1a8fbcc8.pdf",
+    "static/media/codingQuiz.gif": "/portfolio-r/static/media/codingQuiz.47043032.gif",
+    "static/media/dailyScheduler.gif": "/portfolio-r/static/media/dailyScheduler.1a3a635e.gif",
+    "static/media/memoryMaker.png": "/portfolio-r/static/media/memoryMaker.a817b156.png",
+    "static/media/passwordGenerator.png": "/portfolio-r/static/media/passwordGenerator.0d55b663.png",
+    "static/media/personal.png": "/portfolio-r/static/media/personal.778e2035.png",
+    "static/media/stayingInTonight.png": "/portfolio-r/static/media/stayingInTonight.07e42be2.png",
+    "static/media/weatherDashboard.png": "/portfolio-r/static/media/weatherDashboard.cd909be0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9d7fb723.js",
-    "static/js/2.6e3aeba8.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9bc926d5.chunk.js"
+    "static/js/2.65f83808.chunk.js",
+    "static/css/main.76dbe595.chunk.css",
+    "static/js/main.f6a17c09.chunk.js"
   ]
 }
