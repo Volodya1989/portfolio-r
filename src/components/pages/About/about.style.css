@@ -15,3 +15,12 @@
     padding-right: 35px;
     border-radius: 20px;
   }
+  @media screen and (max-width: 990px) {
+   
+    #about-info {
+      width: 90%;
+      margin-top: 10%;
+      margin-left: 4%;
+      margin-bottom: 30%;
+    }
+  }
