@@ -26,7 +26,6 @@ class NavTabs extends Component {
     return (
       <nav id="navBar" className="navbar navbar-expand-lg navbar-dark  transparent-nav">
         <div className="container">
-          {/* <a className="navbar-brand" href="#">Rate My Neighborhood</a> */}
           <Link className="navbar-brand" to="/">
             Volodymyr Petrytsya
           </Link>
@@ -51,7 +50,7 @@ class NavTabs extends Component {
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link" to="/portfolio">
+                <Link className="nav-link" to="/portfolio-r">
                   Portfolio
                 </Link>
               </li>
