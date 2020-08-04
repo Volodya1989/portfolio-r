@@ -14,9 +14,9 @@ function MainContainer() {
         <NavTabs />
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/portfolio-r" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-        <Footer />
+        {/* <Footer /> */}
 
       </div>
     </Router>

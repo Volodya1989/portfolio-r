@@ -38,16 +38,4 @@ export default function ProjectCard(props) {
     </div>
   );
 }
-{
-  /* // <article className="project-card">
-    //   <img alt="preview of the project" src={images[image]} />
-    //   <div>
-    //     <a href={deployedLink}>
-    //       <h3>{name}</h3>
-    //     </a>
-    //     <a href={repositoryLink}>
-    //       <i class="fa fa-github" aria-hidden="true"></i>
-    //     </a>
-    //   </div>
-    // </article> */
-}
+

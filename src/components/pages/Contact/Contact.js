@@ -21,14 +21,14 @@ const Contact = () => {
                     <li>
                       <a href="https://www.linkedin.com/in/volodymyr-petrytsya-497317196/">
                         LinkedIn Profile
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
                       <a href="https://github.com/Volodya1989">
-                        GitHub Profile
+                        GitHub Profile 
                         <i
-                          class="fa fa-github icon-large"
+                          class="fa fa-github fa-2x"
                           aria-hidden="true"
                         ></i>
                       </a>
