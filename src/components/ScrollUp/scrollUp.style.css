@@ -2,8 +2,8 @@
     text-align: center;
     height: 5000px;
   } */
-  
-  /* .scrollTop {
+
+/* .scrollTop {
     position: fixed; 
     width: 100%;
     bottom: 20px;
@@ -30,10 +30,35 @@
     }
   } */
 
-  .react-icons{
+/* .react-icons{
     height: 40;
      display: flex;
      text-align: right;
      background-color: white;
      color: white;
+  } */
+
+#up-scroll {
+  position: fixed;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  bottom: 1.5em;
+  right: 0.25em;
+  max-width: 75px;
+  max-height: 75px;
+  background-attachment: scroll;
+  z-index: 2000;
+}
+@media all and (max-width: 768px) {
+  #up-scroll {
+    margin-right: 1px;
+    margin-bottom: 45px;
   }
+
+  @media all and (min-width: 990px) {
+    #up-scroll {
+      margin-right: 1px;
+      margin-bottom: 45px;
+    }
+  }
+}
