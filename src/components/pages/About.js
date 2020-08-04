@@ -1,5 +1,6 @@
 import React from "react";
 import personal from "../images/personal.png";
+import Resume from "../assets/Resume.pdf"
 function About() {
   return (
     <div>
@@ -40,7 +41,7 @@ function About() {
                   </p>
                   <hr />
 
-                  <a href="./assets/images/Resume_Vol_Petrytsya.pdf">
+                  <a href={Resume}>
                     <h3>My Resume</h3>
                   </a>
                 </div>
