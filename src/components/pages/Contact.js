@@ -1,22 +1,56 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import Resume from "../assets/Resume.pdf"
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <main>
+      <section>
+        <div class="container">
+          <div class="contact-content contact-info content" id="contact-info">
+            <div class="row">
+              <div class="col-lg-11 col-lg-10">
+                <form>
+                  <h1 class="content-text">Contact Info</h1>
+                  <div>
+                    <hr />
+                    <ul></ul>
+                    <li>
+                      <a href={Resume}>
+                        Resume
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/volodymyr-petrytsya-497317196/">
+                        LinkedIn Profile
+                         <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/Volodya1989">
+                        GitHub Profile
+                        <i
+                          class="fa fa-github icon-large"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </li>
+                    <li>
+                      Cell: <a href="#">224-400-0558</a>
+                    </li>
+                    <li>
+                      E-mail:
+                      <a href="mailto:vpetrytsia@gmail.com">
+                        vpetrytsia@gmail.com
+                      </a>
+                    </li>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+    </main>
   );
 }
 
