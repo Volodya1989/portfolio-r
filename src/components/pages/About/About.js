@@ -1,7 +1,14 @@
 import React from "react";
 import personal from "../../images/personal.png";
-import Resume from "../../assets/Resume.pdf"
-import "./about.style.css"
+import Resume from "../../assets/Resume.pdf";
+import resumeIcon from "../../assets/resumeIcon.png";
+import inl from "../../assets/inl.png";
+import mail from "../../assets/mail.png";
+import github from "../../assets/github.png";
+
+
+
+import "./about.style.css";
 
 function About() {
   return (
@@ -19,7 +26,11 @@ function About() {
 
               <div className="row">
                 <div className="col-sm-12">
-                  <img src={personal} className="card-img" alt="personal image" />
+                  <img
+                    src={personal}
+                    className="card-img"
+                    alt="personal image"
+                  />
 
                   <p>
                     Who am I? I would say that I am the person who believe that
@@ -42,10 +53,20 @@ function About() {
                     Stack Developer.
                   </p>
                   <hr />
-
-                  <a href={Resume}>
-                    <h3>My Resume</h3>
-                  </a>
+                  <div className="row">
+                    <a href={Resume} target="_blank">
+                      <img className="logo" src={resumeIcon} alt="CV"></img>
+                    </a>
+                    <a href="https://github.com/Volodya1989" target="_blank">
+                    <img className="logo" src={github} alt="CV"></img>
+                      </a>
+                    <a href="https://www.linkedin.com/in/volodymyr-petrytsya-497317196/" target="_blank">
+                    <img className="logo" src={inl} alt="CV"></img>
+                      </a>
+                      <a href="mailto:vpetrytsia@gmail.com" target="_blank">
+                      <img className="logo" src={mail} alt="CV"></img>
+                      </a>
+                  </div>
                 </div>
               </div>
             </div>

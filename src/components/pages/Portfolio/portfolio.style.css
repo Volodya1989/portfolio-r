@@ -18,3 +18,12 @@
   #portfolio {
     text-align: left;
   }
+  @media screen and (max-width: 990px) {
+   
+    #portfolio-info {
+      width: 90%;
+      margin-top: 10%;
+      margin-left: 4%;
+      margin-bottom: 30%;
+    }
+  }
