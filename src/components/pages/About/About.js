@@ -1,6 +1,8 @@
 import React from "react";
-import personal from "../images/personal.png";
-import Resume from "../assets/Resume.pdf"
+import personal from "../../images/personal.png";
+import Resume from "../../assets/Resume.pdf"
+import "./about.style.css"
+
 function About() {
   return (
     <div>
