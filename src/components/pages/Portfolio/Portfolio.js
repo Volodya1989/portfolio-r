@@ -1,6 +1,8 @@
 import React from "react";
 import { projects } from "../../data/projects";
 import ProjectCard from "../../ProjectCard/ProjectCard";
+import ScrollUp from "../../ScrollUp/ScrollUp";
+
 import "./portfolio.style.css";
 
 function Portfolio() {
@@ -25,6 +27,7 @@ function Portfolio() {
                   />
                 ))}
               </div>
+              <ScrollUp/>
             </div>
           </div>
         </section>

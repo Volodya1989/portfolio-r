@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "../NavTabs/NavTabs";
 import Footer from "../Footer/Footer";
+import ScrollUp from "../ScrollUp/ScrollUp";
+
 import Portfolio from "../pages/Portfolio/Portfolio";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
@@ -16,6 +18,7 @@ function MainContainer() {
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio-r" component={Portfolio} />
         <Route path="/contact" component={Contact} />
+        {/* <ScrollUp/> */}
         <Footer />
 
       </div>
