@@ -1,7 +1,8 @@
 import React from "react";
-import Resume from "../assets/Resume.pdf"
+import Resume from "../../assets/Resume.pdf";
+import "./contact.style.css"
 
-function Contact(props) {
+const Contact = () => {
   return (
     <main>
       <section>
@@ -15,14 +16,12 @@ function Contact(props) {
                     <hr />
                     <ul></ul>
                     <li>
-                      <a href={Resume}>
-                        Resume
-                      </a>
+                      <a href={Resume}>Resume</a>
                     </li>
                     <li>
                       <a href="https://www.linkedin.com/in/volodymyr-petrytsya-497317196/">
                         LinkedIn Profile
-                         <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
@@ -52,6 +51,6 @@ function Contact(props) {
       </section>
     </main>
   );
-}
+};
 
 export default Contact;
