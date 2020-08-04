@@ -8,18 +8,18 @@ function About() {
     <div>
       <main>
         <section>
-          <div class="container about-container">
+          <div className="container about-container">
             <div id="about-info">
-              <div class="row">
-                <div class="col-sm-12">
-                  <h1 class="content-text">About Me</h1>
+              <div className="row">
+                <div className="col-sm-12">
+                  <h1 className="content-text">About Me</h1>
                   <hr />
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-sm-12">
-                  <img src={personal} class="card-img" alt="personal image" />
+              <div className="row">
+                <div className="col-sm-12">
+                  <img src={personal} className="card-img" alt="personal image" />
 
                   <p>
                     Who am I? I would say that I am the person who believe that

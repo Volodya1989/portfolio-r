@@ -19,19 +19,19 @@ export default function ProjectCard(props) {
   const { image, name, deployedLink, repositoryLink } = props;
 
   return (
-    <div class="col-sm-12 col-md-6 mb-4">
-      <div class="banner">
+    <div className="col-sm-12 col-md-6 mb-4">
+      <div className="banner">
         <img
           alt="preview of the project"
           className="card-img-top"
           src={images[image]}
         />
-        <div class="heading">
+        <div className="heading">
           <a href={deployedLink}>
             <h3>{name}</h3>
           </a>
           <a href={repositoryLink}>
-            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            <i className="fa fa-github fa-2x" aria-hidden="true"></i>
           </a>
         </div>
       </div>
