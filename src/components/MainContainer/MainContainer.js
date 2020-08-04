@@ -10,7 +10,7 @@ import "./mainContainer.style.css"
 function MainContainer() {
   return (
     <Router>
-      <div class="mainContainer">
+      <div className="mainContainer">
         <NavTabs />
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />

@@ -6,12 +6,12 @@ const Contact = () => {
   return (
     <main>
       <section>
-        <div class="container">
-          <div class="contact-content contact-info content" id="contact-info">
-            <div class="row">
-              <div class="col-lg-11 col-lg-10">
+        <div className="container">
+          <div className="contact-content contact-info content" id="contact-info">
+            <div className="row">
+              <div className="col-lg-11 col-lg-10">
                 <form>
-                  <h1 class="content-text">Contact Info</h1>
+                  <h1 className="content-text">Contact Info</h1>
                   <div>
                     <hr />
                     <ul></ul>
@@ -21,14 +21,14 @@ const Contact = () => {
                     <li>
                       <a href="https://www.linkedin.com/in/volodymyr-petrytsya-497317196/">
                         LinkedIn Profile
-                        <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
+                        <i className="fa fa-linkedin fa-1x" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
                       <a href="https://github.com/Volodya1989">
                         GitHub Profile 
                         <i
-                          class="fa fa-github fa-2x"
+                          className="fa fa-github fa-2x"
                           aria-hidden="true"
                         ></i>
                       </a>
