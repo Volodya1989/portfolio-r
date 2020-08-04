@@ -4,6 +4,8 @@ import "./contact.style.css";
 import resumeIcon from "../../assets/resumeIcon.png";
 import inl from "../../assets/inl.png";
 import github from "../../assets/github.png";
+import ScrollUp from "../../ScrollUp/ScrollUp";
+
 const Contact = () => {
   return (
     <main>
@@ -47,6 +49,8 @@ const Contact = () => {
                         vpetrytsia@gmail.com
                       </a>
                     </li>
+                    <ScrollUp/>
+
                   </div>
                 </form>
               </div>

@@ -5,6 +5,7 @@ import resumeIcon from "../../assets/resumeIcon.png";
 import inl from "../../assets/inl.png";
 import mail from "../../assets/mail.png";
 import github from "../../assets/github.png";
+import ScrollUp from "../../ScrollUp/ScrollUp";
 
 
 
@@ -67,6 +68,8 @@ function About() {
                       <img className="logo" src={mail} alt="CV"></img>
                       </a>
                   </div>
+                  <ScrollUp/>
+
                 </div>
               </div>
             </div>
