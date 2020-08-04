@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c206965c9afbddb40e7f904287de3bc6",
+    "revision": "ccec766e1267bb63cb4ae2fcdd170389",
     "url": "/portfolio-r/index.html"
   },
   {
-    "revision": "8903b40e2f1e9887f76b",
-    "url": "/portfolio-r/static/css/main.76dbe595.chunk.css"
+    "revision": "ae487243e6c36f7ae7af",
+    "url": "/portfolio-r/static/css/main.f2133fa3.chunk.css"
   },
   {
-    "revision": "f65c2b349715bf8c8fa5",
-    "url": "/portfolio-r/static/js/2.65f83808.chunk.js"
+    "revision": "2465f17c5b031ceb8741",
+    "url": "/portfolio-r/static/js/2.64476cf6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio-r/static/js/2.65f83808.chunk.js.LICENSE.txt"
+    "url": "/portfolio-r/static/js/2.64476cf6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8903b40e2f1e9887f76b",
-    "url": "/portfolio-r/static/js/main.a87f64d9.chunk.js"
+    "revision": "ae487243e6c36f7ae7af",
+    "url": "/portfolio-r/static/js/main.b832977f.chunk.js"
   },
   {
     "revision": "25fc8348085800a59277",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-r/static/media/Resume.1a8fbcc8.pdf"
   },
   {
+    "revision": "5bb7c8d0cf0c9824cc1762d9b4c5effd",
+    "url": "/portfolio-r/static/media/background.5bb7c8d0.png"
+  },
+  {
     "revision": "470430322f7bb74c01040e40d29550de",
     "url": "/portfolio-r/static/media/codingQuiz.47043032.gif"
   },
   {
     "revision": "1a3a635ebceee80b0179a233cac99d7c",
     "url": "/portfolio-r/static/media/dailyScheduler.1a3a635e.gif"
+  },
+  {
+    "revision": "0918d78648457def080137b179fc5608",
+    "url": "/portfolio-r/static/media/github.0918d786.png"
   },
   {
     "revision": "a817b156c1150dfa6128d85412cc4ab6",
@@ -46,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "778e203548cb340ab87eedf5abc63847",
     "url": "/portfolio-r/static/media/personal.778e2035.png"
+  },
+  {
+    "revision": "3a1a90db8e059b12ec1a45963a0afbdd",
+    "url": "/portfolio-r/static/media/resumeIcon.3a1a90db.png"
   },
   {
     "revision": "07e42be211db59fa370706cdcbce0366",
