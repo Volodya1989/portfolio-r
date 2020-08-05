@@ -13,9 +13,9 @@ function Portfolio() {
           <div className="container">
             <div id="portfolio-info">
               <h1 className="content-text" id="portfolio">
-                Portfolio
+                Recent Projects
               </h1>
-              <hr />
+              <hr id="portfolioLine" />
               <div className="row">
                 {projects.map((project) => (
                   <ProjectCard
@@ -24,6 +24,7 @@ function Portfolio() {
                     key={project.key}
                     name={project.name}
                     repositoryLink={project.repositoryLink}
+                    overview={project.overview}
                   />
                 ))}
               </div>
