@@ -24,6 +24,7 @@ function Portfolio() {
                     key={project.key}
                     name={project.name}
                     repositoryLink={project.repositoryLink}
+                    overview={project.overview}
                   />
                 ))}
               </div>

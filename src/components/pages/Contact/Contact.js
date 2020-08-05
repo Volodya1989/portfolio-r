@@ -25,17 +25,24 @@ const Contact = () => {
                     <hr />
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="tel:+12244000558">
                           <img className="logo" src={mobile} alt="CV"></img>
-                        </a>{" "}
-                        <a href="#">224-400-0558</a>
+                        </a>
+                        <br />
+                        <a href="tel:+12244000558">
+                          <span className="contactInfoTel">224-400-0558 </span>
+                        </a>
                       </li>
                       <li>
                         <a href="mailto:vpetrytsia@gmail.com" target="_blank">
                           <img className="logo" src={mail} alt="CV"></img>
                         </a>
+                        <br />
                         <a href="mailto:vpetrytsia@gmail.com" target="_blank">
-                          vpetrytsia@gmail.com
+                          <span className="contactInfoTel">
+                            {" "}
+                            vpetrytsia@gmail.com
+                          </span>
                         </a>
                       </li>
                       <li>
@@ -67,7 +74,7 @@ const Contact = () => {
                             src={resumeIcon}
                             alt="CV"
                           ></img>
-                          <p class="img__description">Resume</p>
+                          <p className="img__description">Resume</p>
                         </a>
                       </li>
                     </ul>

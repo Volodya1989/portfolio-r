@@ -5,7 +5,7 @@
   margin-right: 80%;
   margin-left: 5%;
   margin-top: 5%;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
   padding-left: 35px;
   padding-top: 35px;
   padding-bottom: 35px;
@@ -21,9 +21,13 @@
 @media screen and (max-width: 990px) {
   #portfolio-info {
     width: 90%;
-    margin-top: 10%;
-    margin-left: 4%;
-    margin-bottom: 20%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    padding-left: 1px;
+    padding-right: 1px;
+
+
   }
 }
 #portfolioLine {
