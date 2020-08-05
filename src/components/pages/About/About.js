@@ -53,9 +53,10 @@ function About() {
                     Stack Developer.
                   </p>
                   <hr />
-                  <div id="aboutIcons" className="row">
-                    <a href={Resume} target="_blank">
-                      <img className="logo" src={resumeIcon} alt="CV"></img>
+                  <div id="aboutIcons" className="row ">
+                    <a href={Resume} className="img__wrap" target="_blank">
+                      <img className="logo img__img" src={resumeIcon} alt="CV"></img>
+                      <p class="img__description">Resume</p>
                     </a>
                     <a href="https://github.com/Volodya1989" target="_blank">
                       <img className="logo" src={github} alt="CV"></img>
