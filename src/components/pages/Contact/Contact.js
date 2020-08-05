@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="row">
               <div className="col-lg-11 col-lg-10">
                 <form>
-                  <h1 className="content-text">Contact Info</h1>
+                  <h1 className="content-text">Contact Me</h1>
                   <div>
                     <hr />
                     <ul></ul>
@@ -31,8 +31,8 @@ const Contact = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://github.com/Volodya1989" target="_blank">
-                        <img className="logo" src={github} alt="CV"></img>
+                      <a  href="https://github.com/Volodya1989" target="_blank">
+                        <img id="git" className="logo" src={github} alt="CV"></img>
                       </a>
                     </li>
                     <li>

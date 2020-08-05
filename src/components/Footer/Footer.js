@@ -4,7 +4,7 @@ import "./footer.style.css"
 export default function Footer() {
   return (<footer className="footer">
   <p id="copyright">
-    &copy; Copyright
+    &copy; Volodymyr Petrytsya
   </p>
   </footer>)
 }
